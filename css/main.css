@@ -14,14 +14,13 @@ body > header,
 main > main {
   display: inline-block;
   background-color: none;
-  width: 1000px;
+  width: 1080px;
   margin-left: calc(50% - 500px);
+  margin-top: 20px;
 }
 header > img {
   float: left;
   height: 46px;
-  object-fit: contain;
-  object-position: center;
 }
 
 header > nav {
@@ -49,25 +48,39 @@ nav > a:first-child {
   border-bottom: 2px solid orangered;
 }
 
-main {
+body > main {
   margin-top: 100px;
 }
 
 main > div {
   width: 45%;
-  padding: 10%;
+  padding-right: 10%;
   background-color: none;
   float: left;
-  padding-right: 15%;
+  padding-left: 10%;
+  object-fit: contain;
 }
 
 div > h1 {
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-family: cursive;
+}
+h1 > span {
+  color: orangered;
 }
 
 div > p {
+  margin-bottom: 25px;
 }
 
 div > a {
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
   background-color: orangered;
 }
 
@@ -77,5 +90,4 @@ main > img {
   background-color: none;
   float: left;
   object-fit: contain;
-  object-position: center;
 }
