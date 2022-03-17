@@ -11,10 +11,9 @@ body {
 }
 
 body > header,
-main > main {
+body > main {
   display: inline-block;
-  background-color: none;
-  width: 1080px;
+  width: 1000px;
   margin-left: calc(50% - 500px);
   margin-top: 20px;
 }
@@ -31,16 +30,13 @@ header > nav {
 nav > a {
   display: inline-block;
   font-size: 18px;
+  padding-bottom: 5px;
   line-height: 20px;
   margin-left: 20px;
-  padding-bottom: 5px;
   text-decoration: none;
   color: black;
 }
 nav > a:hover {
-  border-bottom: 2px solid red;
-}
-nav > a:first-child {
   border-bottom: 2px solid red;
 }
 
@@ -49,16 +45,14 @@ nav > a:first-child {
 }
 
 body > main {
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 main > div {
   width: 45%;
   padding-right: 10%;
-  background-color: none;
+
   float: left;
-  padding-left: 10%;
-  object-fit: contain;
 }
 
 div > h1 {
