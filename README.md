@@ -10,7 +10,7 @@ _35 group website project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://github.com/RokasAbra/new-project-yoga
+Site published at: https://rokasabra.github.io/new-project-yoga/
 
 Design: [YOGA](https://cdn.discordapp.com/attachments/850245533838868480/916019208788258886/yoga-lifestyle.png)
 
