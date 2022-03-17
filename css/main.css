@@ -45,18 +45,18 @@ nav > a:first-child {
 }
 
 body > main {
-  margin-top: 200px;
+  margin-top: 180px;
 }
 
 main > div {
-  width: 45%;
-  padding-right: 10%;
+  width: 50%;
+  padding-right: 15%;
 
   float: left;
 }
 
 div > h1 {
-  margin-bottom: 15px;
+  margin-bottom: 18px;
   font-weight: normal;
   font-family: cursive;
 }
